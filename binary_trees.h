@@ -45,6 +45,6 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int tree_height(const binary_tree_t *tree);
 int is_perfect_recursive(const binary_tree_t *tree, int height, int level);
-int binary_tree_height(const binary_tree_t *tree);
+int B_tree_height(const binary_tree_t *tree);
 
 #endif
